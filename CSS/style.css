@@ -149,7 +149,6 @@ a {
 
 .nav ul li a {
   color: var(--primaryTextColor);
-  
 }
 
 .logo {
@@ -195,7 +194,7 @@ a {
 }
 
 .hero-name {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
   /* Adjust name & position */
   margin: 0.5rem 0 0.4rem;
@@ -206,7 +205,7 @@ a {
 }
 
 .hero-right img {
-  width: 100%;
+  width: 90%;
 }
 
 .hero-right img {
@@ -277,9 +276,9 @@ a {
 }
 
 /* services name position */
-/* .services .pre-title {
+.services .pre-title {
   margin: 0 auto;
-} */
+}
 
 .services-title {
   text-align: left;
