@@ -149,7 +149,7 @@ a {
 
 .nav ul li a {
   color: var(--primaryTextColor);
-  display: block;
+  
 }
 
 .logo {
