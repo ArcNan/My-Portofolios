@@ -206,9 +206,6 @@ a {
 
 .hero-right img {
   width: 90%;
-}
-
-.hero-right img {
   display: flex;
   justify-content: center;
 }
@@ -281,7 +278,7 @@ a {
 }
 
 .services-title {
-  text-align: left;
+  text-align: center;
 }
 
 .service {
