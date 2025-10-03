@@ -219,6 +219,9 @@ a {
   /* justify-content: center; */
 }
 
+img {
+  width: 100%;
+}
 /* Social media */
 .social-media {
   display: inline-flex;
