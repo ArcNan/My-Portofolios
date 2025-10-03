@@ -457,7 +457,7 @@ hr {
 
 .skill-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: 1fr;
   gap: 3rem;
 }
 
@@ -534,7 +534,7 @@ hr {
 
 .skills-list {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   margin-top: 1.5rem;
 }
 
@@ -550,7 +550,7 @@ hr {
 
 .contact {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: 1fr;
   gap: 3rem;
 }
 
