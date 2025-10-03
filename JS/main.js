@@ -29,8 +29,8 @@ if (typed) {
     strings: typed_strings,
     loop: true,
     typeSpeed: 40,
-    backSpeed: 50,
-    backDelay: 1150,
+    backSpeed: 30,
+    backDelay: 1100,
   });
 }
 
