@@ -213,8 +213,9 @@ a {
 }
 
 .hero-right img {
-  width: 90%;
-  display: flex;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
   justify-content: center;
 }
 
