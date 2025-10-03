@@ -180,7 +180,7 @@ a {
 /* Menu 3 line right */
 .burger {
   display: none;
-  z-index: 99;
+  z-index: 11;
   position: fixed;
   top: 33px;
   right: 35px;

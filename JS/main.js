@@ -3,11 +3,12 @@ const navSlide = () => {
   const burger = document.querySelector(".burger");
   const navLists = document.querySelector("nav");
 
-  burger.addEventListener("click", () => {
-    // Toggle nav list and burger class
-    navLists.classList.toggle("nav-active");
-    burger.classList.toggle("toggle-burger");
-  });
+  if (burger && navLists) {
+    burger.addEventListener("click", () => {
+      navLists.classList.toggle("nav-active");
+      burger.classList.toggle("toggle-burger");
+    });
+  }
 };
 
 navSlide();
@@ -40,23 +41,30 @@ window.onscroll = function () {
 };
 
 // Get the navbar
-var nav = document.getElementById("nav");
+const nav = document.querySelector(".nav");
 
 // Get the offset position of the navbar
-var sticky = nav.offsetTop;
+if (nav) {
+  // PERBAIKAN: Ambil posisi offset dari nav
+  const stickyOffset = nav.offsetTop;
 
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    nav.classList.add("sticky");
-  } else {
-    nav.classList.remove("sticky");
-  }
+  // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  const handleScroll = () => {
+    // Tambah atau hapus class 'sticky' berdasarkan posisi scroll
+    if (window.pageYOffset >= stickyOffset) {
+      nav.classList.add("sticky");
+    } else {
+      nav.classList.remove("sticky");
+    }
+  };
+
+  // Clear form before unload
+  window.onbeforeunload = () => {
+    for (const form of document.getElementsByTagName("form")) {
+      form.reset();
+    }
+  };
+
+  // Tambahkan event listener ke window
+  window.addEventListener("scroll", handleScroll);
 }
-
-// Clear form before unload
-window.onbeforeunload = () => {
-  for (const form of document.getElementsByTagName("form")) {
-    form.reset();
-  }
-};

@@ -42,7 +42,7 @@
     flex-direction: column;
     background: var(--primaryBackgroundColor);
     border-left: 1px solid var(--borderColor);
-    z-index: 9;
+    z-index: 10;
     transform: translateX(100%);
     transition: 0.2s ease-in-out;
   }
