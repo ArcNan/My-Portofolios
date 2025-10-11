@@ -5,495 +5,603 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Profil Saya</title>
-    <!-- CSS -->
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="stylesheet" href="CSS/responsive.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
   <body>
-    <!-- Header -->
-    <header>
-      <div class="main-container">
-        <div class="nav">
-          <div class="logo">
-            <a href="/">TRY</a>
+    <div class="page-wrapper">
+      <header>
+        <div class="main-container">
+          <div class="nav">
+            <div class="logo" data-aos="fade-down">
+              <a href="/">TRY</a>
+            </div>
+
+            <nav>
+              <ul data-aos="fade-down" data-aos-delay="200">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portofolios">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                  <a href="Resume/CurriculumVitae.pdf" target="_blank">
+                    <button class="btn">Resume</button>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="burger">
+              <div class="line-1"></div>
+              <div class="line-2"></div>
+              <div class="line-3"></div>
+            </div>
           </div>
 
-          <nav>
-            <ul>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#portofolios">Portofolio</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li>
-                <a href="Resume/CurriculumVitae.pdf" target="_blank">
-                  <button class="btn">Resume</button>
-                </a>
-              </li>
-            </ul>
-          </nav>
+          <main>
+            <section id="hero">
+              <div class="hero-left" data-aos="fade-right">
+                <h3 class="pre-title">My Name</h3>
+                <h1 class="hero-name">Tio <span>Rangga</span> Yudhistira</h1>
+                <h2>
+                  I'm a
+                  <span
+                    class="typed"
+                    data-typed-items="Technical Support, Freelancer, Content Creator, Designer, Programmer"
+                  ></span>
+                </h2>
 
-          <div class="burger">
-            <div class="line-1"></div>
-            <div class="line-2"></div>
-            <div class="line-3"></div>
-          </div>
-        </div>
-
-        <main>
-          <!-- Hero section -->
-
-          <section id="hero">
-            <div class="hero-left">
-              <h3 class="pre-title">My Name</h3>
-              <h1 class="hero-name">Tio <span>Rangga</span> Yudhistira</h1>
-              <h2>
-                I'm,
-                <span
-                  class="typed"
-                  data-typed-items="Technical Support., Freelancer., Content Creator., Designer., Programmer."
-                ></span>
-              </h2>
-
-              <br />
-              <div class="social-media">
-                <a
-                  href="https://www.linkedin.com/in/tio-rangga-yudhistira-b09a7515b"
-                  ><i class="fab fa-linkedin"></i
-                ></a>
-                <!-- <a href="https://twitter.com/Tio_ranggaYDT"
-                  ><i class="fab fa-twitter"></i
-                ></a> -->
-                <a href="https://www.instagram.com/tiorydt_"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-                <a
-                  href="https://www.youtube.com/channel/UCJq9xupnbT_nI5Y9XZMyQpw"
-                  ><i class="fab fa-youtube"></i
-                ></a>
-                <a href="https://github.com/ArcNan"
-                  ><i class="fab fa-github"></i
-                ></a>
                 <br />
+                <div class="social-media">
+                  <a
+                    href="https://www.linkedin.com/in/tio-rangga-yudhistira-b09a7515b"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a href="https://www.instagram.com/tiorydt_"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a
+                    href="https://www.youtube.com/channel/UCJq9xupnbT_nI5Y9XZMyQpw"
+                    ><i class="fab fa-youtube"></i
+                  ></a>
+                  <a href="https://github.com/ArcNan"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+                <br /><br />
+                <p>
+                  "I am a Fresh Graduate with a degree in Informatics
+                  Engineering from Universitas Indraprasta PGRI Jakarta. My
+                  experience spans several key areas, including customer
+                  service, digital content management, technical support, as
+                  well as Artificial Intelligence and Cyber Security. I possess
+                  a strong background in operating technological devices and
+                  resolving technical issues, enabling me to work effectively
+                  both within a team and independently. I am always eager to
+                  learn new things and contribute to challenging projects."
+                </p>
               </div>
-              <br />
-              <br />
+              <div class="hero-right" data-aos="fade-left" data-aos-delay="200">
+                <img src="IMG/FotoProfile.png" alt="Photos" />
+              </div>
+            </section>
+          </main>
+        </div>
+      </header>
+      <section id="services">
+        <div class="services main-container">
+          <h3 class="pre-title" data-aos="fade-up">Services</h3>
+          <h1
+            class="section-title services-title"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            Specialized In
+          </h1>
+
+          <div class="grid-3">
+            <div class="service" data-aos="zoom-in" data-aos-delay="200">
+              <div class="service-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                >
+                  <path
+                    d="M12 22.246c-.428 0-1.099-.709-1.688-2.276-.579.295-1.082.527-1.571.738.767 1.992 1.858 3.292 3.259 3.292 1.44 0 2.552-1.371 3.322-3.452-.485-.201-.997-.43-1.581-.719-.599 1.667-1.298 2.417-1.741 2.417zm-4.709-2.216c-3.099 1.139-6.29 1.168-6.29-1.644 0-.939.435-2.257 1.796-4.082.581-.779 1.254-1.545 1.937-2.248 1.531-1.555 3.256-3.05 5.505-4.599-1.083-.596-2.264-1.167-3.416-1.59-1.18-.435-2.219-.676-3.015-.676-.508 0-.886.107-1.009.288-.133.192-.138.784.445 1.843l.21-.013c1.047 0 1.898.866 1.898 1.933 0 1.067-.851 1.931-1.898 1.931-1.048 0-1.897-.864-1.897-1.931 0-.346.089-.67.245-.951-.59-1.04-.802-1.86-.802-2.503 0-1.515 1.154-2.354 2.808-2.354 2.514 0 5.9 1.662 8.082 2.946 2.214-1.363 5.717-3.159 8.304-3.159 1.893 0 2.807 1.054 2.807 2.395 0 .939-.436 2.256-1.796 4.08-3.084 4.137-9.216 8.606-13.914 10.334zm14.917-4.305c.142-.27.22-.576.22-.902 0-1.068-.849-1.933-1.897-1.933s-1.897.865-1.897 1.933c0 1.066.849 1.93 1.897 1.93l.258-.017c.552 1.024.544 1.597.415 1.787-.124.181-.501.287-1.01.287-1.602 0-3.833-.944-5.27-1.657-.48.342-1.075.748-1.657 1.119 1.925 1.036 4.757 2.295 6.927 2.295 1.64 0 2.808-.83 2.808-2.354 0-.638-.211-1.455-.794-2.488zm-12.834.119h-.001l-.013-.01c-1.144-.81-2.272-1.7-3.317-2.631-2.817 2.877-3.611 4.963-3.238 5.524.126.189.492.299 1.003.299 2.35 0 6.08-2.018 8.287-3.465 2.709-1.775 5.8-4.328 7.736-6.926 1.506-2.018 1.552-3.081 1.366-3.361-.126-.19-.491-.298-1.003-.298-1.952 0-4.924 1.459-6.636 2.447 1.263.836 2.443 1.719 3.52 2.616-.408.415-.834.819-1.27 1.211-1.196-.982-2.524-1.946-3.901-2.81-1.581 1.036-3.173 2.254-4.603 3.552 1.075.951 2.356 1.949 3.721 2.873-.522.331-1.049.647-1.651.979zm2.626-5.844c1.104 0 2 .896 2 2s-.896 2-2 2-2-.896-2-2 .896-2 2-2zm-1.739-5.828c-.58-.285-1.095-.518-1.581-.718.77-2.082 1.882-3.454 3.32-3.454 1.403 0 2.495 1.302 3.261 3.292-.49.212-.996.447-1.572.739-.587-1.567-1.258-2.275-1.689-2.275-.441 0-1.139.75-1.739 2.416z"
+                  />
+                </svg>
+              </div>
+              <h4>Data Science</h4>
               <p>
-                "I am a Fresh Graduate with a degree in Informatics Engineering
-                from Universitas Indraprasta PGRI Jakarta. My experience spans
-                several key areas, including customer service, digital content
-                management, technical support, as well as Artificial
-                Intelligence and Cyber Security. I possess a strong background
-                in operating technological devices and resolving technical
-                issues, enabling me to work effectively both within a team and
-                independently. I am always eager to learn new things and
-                contribute to challenging projects."
+                Passionate about turning data into meaningful insights.
+                Experienced in data analysis, machine learning, and
+                visualization to support smart, data-driven decisions.
               </p>
             </div>
-            <div class="hero-right">
-              <img src="IMG/FotoProfile.png" alt="Photos" />
+            <div class="service" data-aos="zoom-in" data-aos-delay="300">
+              <div class="service-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M10 2h-2v-2h2v2zm-8 6h-2v2h2v-2zm0-5c0-.551.448-1 1-1h4v-2h-4c-1.657 0-3 1.343-3 3v4h2v-4zm0 8h-2v2h2v-2zm14-11h-2v2h2v-2zm-3 0h-2v2h2v-2zm-11 14h-2v2h2v-2zm18-2.042h-2.277l-2.36 5.386-2.883-7.93-2.442 5.78-2.071-4.14-1.129 1.966h-2.838v6.98h16v-8.042zm-16 .063h2.259l1.768-3.081 1.935 3.866 2.589-6.126 2.899 7.976 1.62-3.697h2.93v-6.959h-16v8.021zm10 11.979h2v-2h-2v2zm8-11h2v-2h-2v2zm-20 8v-4h-2v4c0 1.657 1.343 3 3 3h4v-2h-4c-.552 0-1-.449-1-1zm20 0c0 .551-.448 1-1 1h-4v2h4c1.657 0 3-1.343 3-3v-4h-2v4zm0-11h2v-2h-2v2zm0 6h2v-2h-2v2zm2-13c0-1.657-1.343-3-3-3h-4v2h4c.552 0 1 .449 1 1v4h2v-4zm-16 21h2v-2h-2v2zm3 0h2v-2h-2v2z"
+                  />
+                </svg>
+              </div>
+              <h4>Technical Support</h4>
+              <p>
+                Technical support is a service to help solve client problems in
+                implementing, using, and configuring hardware or software.
+              </p>
             </div>
-          </section>
-        </main>
-      </div>
-      <!-- typed js -->
-      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-      <!-- main script -->
-      <script src="JS/main.js"></script>
-    </header>
-    <!-- End of Header -->
-    <section id="services">
-      <div class="services main-container">
-        <h3 class="pre-title">Services</h3>
-        <h1 class="section-title services-title">Specialized In</h1>
-
-        <div class="grid-3">
-          <!-- Services 1 -->
-          <div class="service">
-            <div class="service-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M22 6v16h-20v-16h20zm2-6h-24v24h24v-24zm-11 11v1.649l3.229 1.351-3.229 1.347v1.653l5-2.201v-1.599l-5-2.2zm-7 2.201v1.599l5 2.2v-1.653l-3.229-1.347 3.229-1.351v-1.649l-5 2.201z"
-                />
-              </svg>
+            <div class="service" data-aos="zoom-in" data-aos-delay="400">
+              <div class="service-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                >
+                  <path
+                    d="M10.5 24h-7c-1.4 0-2.5-1.14-2.5-2.5v-11.64c-.662-.473-1-1.201-1-1.941 0-.376.089-.75.289-1.129 1.065-1.898 2.153-3.783 3.265-5.654.462-.737 1.211-1.136 2.045-1.136.635 0 .972.204 1.445.479.662.386 9 5.352 12.512 7.441.087.052 3.366 1.988 3.449 2.045.663.49.995 1.197.995 1.934 0 .375-.092.745-.295 1.13-1.064 1.899-2.153 3.784-3.265 5.655-.577.92-1.615 1.29-2.496 1.088-.392.234-5.826 3.75-6.252 3.968-.413.212-.762.26-1.192.26m-7.5-10.763v8.263c0 .274.221.5.5.5h4.588c-1.72-2.906-3.417-5.827-5.088-8.763m1.606-1.238c.053.092 5.681 9.797 5.726 9.859.108.139.299.181.455.098.164-.092 5.081-3.251 5.081-3.251-.639-.377-8.144-4.851-11.262-6.706m.659-9.829c-.913 1.456-3.199 5.525-3.235 5.61-.07.171-.008.366.149.464.201.12 16.023 9.547 16.177 9.571.151.022.297-.045.377-.174.942-1.584 3.206-5.55 3.232-5.601.069-.172.007-.367-.15-.465-.201-.12-15.983-9.499-16.09-9.546-.18-.074-.365-.002-.46.141m1.557 2.695c1.104 0 2 .897 2 2 0 1.104-.896 2-2 2s-2-.896-2-2c0-1.103.896-2 2-2"
+                  />
+                </svg>
+              </div>
+              <h4>Design</h4>
+              <p>
+                Design create works for print media, electronic media,
+                publishers, and so on. This includes designing brochures or
+                product advertisements.
+              </p>
             </div>
-            <h4>UI/UX Design</h4>
-            <p>
-              UI/UX will help display your services in an attractive and
-              understandable way, making it easy for visitors to find the
-              information they need.
-            </p>
-          </div>
-          <!-- Services 2 -->
-          <div class="service">
-            <div class="service-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M10 2h-2v-2h2v2zm-8 6h-2v2h2v-2zm0-5c0-.551.448-1 1-1h4v-2h-4c-1.657 0-3 1.343-3 3v4h2v-4zm0 8h-2v2h2v-2zm14-11h-2v2h2v-2zm-3 0h-2v2h2v-2zm-11 14h-2v2h2v-2zm18-2.042h-2.277l-2.36 5.386-2.883-7.93-2.442 5.78-2.071-4.14-1.129 1.966h-2.838v6.98h16v-8.042zm-16 .063h2.259l1.768-3.081 1.935 3.866 2.589-6.126 2.899 7.976 1.62-3.697h2.93v-6.959h-16v8.021zm10 11.979h2v-2h-2v2zm8-11h2v-2h-2v2zm-20 8v-4h-2v4c0 1.657 1.343 3 3 3h4v-2h-4c-.552 0-1-.449-1-1zm20 0c0 .551-.448 1-1 1h-4v2h4c1.657 0 3-1.343 3-3v-4h-2v4zm0-11h2v-2h-2v2zm0 6h2v-2h-2v2zm2-13c0-1.657-1.343-3-3-3h-4v2h4c.552 0 1 .449 1 1v4h2v-4zm-16 21h2v-2h-2v2zm3 0h2v-2h-2v2z"
-                />
-              </svg>
-            </div>
-            <h4>Technical Support</h4>
-            <p>
-              Technical support is a service to help solve client problems in
-              implementing, using, and configuring hardware or software.
-            </p>
-          </div>
-          <!-- Services 3 -->
-          <div class="service">
-            <div class="service-icon">
-              <svg
-                width="24"
-                height="24"
-                xmlns="http://www.w3.org/2000/svg"
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-              >
-                <path
-                  d="M10.5 24h-7c-1.4 0-2.5-1.14-2.5-2.5v-11.64c-.662-.473-1-1.201-1-1.941 0-.376.089-.75.289-1.129 1.065-1.898 2.153-3.783 3.265-5.654.462-.737 1.211-1.136 2.045-1.136.635 0 .972.204 1.445.479.662.386 9 5.352 12.512 7.441.087.052 3.366 1.988 3.449 2.045.663.49.995 1.197.995 1.934 0 .375-.092.745-.295 1.13-1.064 1.899-2.153 3.784-3.265 5.655-.577.92-1.615 1.29-2.496 1.088-.392.234-5.826 3.75-6.252 3.968-.413.212-.762.26-1.192.26m-7.5-10.763v8.263c0 .274.221.5.5.5h4.588c-1.72-2.906-3.417-5.827-5.088-8.763m1.606-1.238c.053.092 5.681 9.797 5.726 9.859.108.139.299.181.455.098.164-.092 5.081-3.251 5.081-3.251-.639-.377-8.144-4.851-11.262-6.706m.659-9.829c-.913 1.456-3.199 5.525-3.235 5.61-.07.171-.008.366.149.464.201.12 16.023 9.547 16.177 9.571.151.022.297-.045.377-.174.942-1.584 3.206-5.55 3.232-5.601.069-.172.007-.367-.15-.465-.201-.12-15.983-9.499-16.09-9.546-.18-.074-.365-.002-.46.141m1.557 2.695c1.104 0 2 .897 2 2 0 1.104-.896 2-2 2s-2-.896-2-2c0-1.103.896-2 2-2"
-                />
-              </svg>
-            </div>
-            <h4>Design</h4>
-            <p>
-              Design create works for print media, electronic media, publishers,
-              and so on. This includes designing brochures or product
-              advertisements.
-            </p>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- End of Services Section -->
+      </section>
 
-    <!-- portofolio content creator -->
-    <section id="portofolios">
-      <div class="portofolios main-container">
-        <h3 class="pre-title">My Works</h3>
-        <h1 class="section-title">Featured Portofolios as Content Creator</h1>
-        <div class="grid-2">
-          <div class="portofolio-cover-yt">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/jnQfW82t7GE?si=TMNuLnxgsAHxmktX"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
+      <section id="portofolios">
+        <div class="portofolios main-container">
+          <h3 class="pre-title" data-aos="fade-up">My Works</h3>
+          <h1 class="section-title" data-aos="fade-up" data-aos-delay="100">
+            Featured Portfolios
+          </h1>
+          <div class="filter-buttons" data-aos="fade-up" data-aos-delay="200">
+            <button class="filter-btn active" data-filter="porto">
+              Portofolios
+            </button>
+            <button class="filter-btn" data-filter="certif">
+              Certificates
+            </button>
+            <button class="filter-btn" data-filter="content">
+              Content Creator
+            </button>
           </div>
-          <div class="portofolio-info">
-            <div class="portofolio-title">
-              <div class="portofolio-yt">
-                <h4>My YouTube Channel</h4>
-                <br />
-                <img src="IMG/logoyt.jpg" />
-                <br />
-                <div class="youtube-name">
-                  @ArcTech_ID &nbsp;
-                  <a
-                    href="https://www.youtube.com/@ArcTech_ID"
-                    class="portofolio-link-yt"
-                  >
-                    <svg
-                      width="24"
-                      height="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                    >
-                      <path
-                        d="M14.851 11.923c-.179-.641-.521-1.246-1.025-1.749-1.562-1.562-4.095-1.563-5.657 0l-4.998 4.998c-1.562 1.563-1.563 4.095 0 5.657 1.562 1.563 4.096 1.561 5.656 0l3.842-3.841.333.009c.404 0 .802-.04 1.189-.117l-4.657 4.656c-.975.976-2.255 1.464-3.535 1.464-1.28 0-2.56-.488-3.535-1.464-1.952-1.951-1.952-5.12 0-7.071l4.998-4.998c.975-.976 2.256-1.464 3.536-1.464 1.279 0 2.56.488 3.535 1.464.493.493.861 1.063 1.105 1.672l-.787.784zm-5.703.147c.178.643.521 1.25 1.026 1.756 1.562 1.563 4.096 1.561 5.656 0l4.999-4.998c1.563-1.562 1.563-4.095 0-5.657-1.562-1.562-4.095-1.563-5.657 0l-3.841 3.841-.333-.009c-.404 0-.802.04-1.189.117l4.656-4.656c.975-.976 2.256-1.464 3.536-1.464 1.279 0 2.56.488 3.535 1.464 1.951 1.951 1.951 5.119 0 7.071l-4.999 4.998c-.975.976-2.255 1.464-3.535 1.464-1.28 0-2.56-.488-3.535-1.464-.494-.495-.863-1.067-1.107-1.678l.788-.785z"
-                      />
-                    </svg>
-                  </a>
+          <div
+            class="portfolio-gallery"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="portfolio-item porto">
+              <div class="portfolio-item-inner">
+                <a
+                  href="https://spk-laptop-ditoko-elfanoscomputer.streamlit.app/"
+                  target="_self"
+                >
+                  <img
+                    src="IMG/Portfolio/Portfolio1.png"
+                    alt="Lihat Semua Portofolio"
+                  />
+                  <div class="overlay">
+                    <h4>My Portfolio</h4>
+                    <p>Aplikasi SPK Pemilihan Laptop - Toko Elfanos</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio-item porto">
+              <div class="portfolio-item-inner">
+                <a href="https://sms-spam-buster.streamlit.app/" target="_self">
+                  <img
+                    src="IMG/Portfolio/Portfolio2.png"
+                    alt="Lihat Semua Portofolio"
+                  />
+                  <div class="overlay">
+                    <h4>My Portfolio</h4>
+                    <p>Aplikasi Detektor SMS Spam Bahasa Inggris (LSTM)</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- Certificates  -->
+            <div class="portfolio-item certif">
+              <div class="portfolio-item-inner">
+                <img
+                  src="IMG/Certificates/Cert1.jpg"
+                  alt="Sertifikat Bootcamp"
+                />
+                <div class="overlay">
+                  <h4>Cognitive Class.ai</h4>
+                  <p>Prompt Engineering for Everyone</p>
                 </div>
-                <br />
+              </div>
+            </div>
+
+            <div class="portfolio-item certif">
+              <div class="portfolio-item-inner">
+                <img
+                  src="IMG/Certificates/Cert2.jpg"
+                  alt="Sertifikat Bootcamp"
+                />
+                <div class="overlay">
+                  <h4>Cognitive Class.ai</h4>
+                  <p>Deep Learning with TensorFlow</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item certif">
+              <div class="portfolio-item-inner">
+                <img
+                  src="IMG/Certificates/Cert3.jpg"
+                  alt="Sertifikat Bootcamp"
+                />
+                <div class="overlay">
+                  <h4>Cognitive Class.ai</h4>
+                  <p>Data Visualization with Python</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item certif">
+              <div class="portfolio-item-inner">
+                <img
+                  src="IMG/Certificates/Cert4.jpg"
+                  alt="Sertifikat Bootcamp"
+                />
+                <div class="overlay">
+                  <h4>Cognitive Class.ai</h4>
+                  <p>Deep Learning Fundamentals</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item certif">
+              <div class="portfolio-item-inner">
+                <img
+                  src="IMG/Certificates/Cert5.jpg"
+                  alt="Sertifikat Bootcamp"
+                />
+                <div class="overlay">
+                  <h4>Cognitive Class.ai</h4>
+                  <p>Python 101 for Data Science</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item certif">
+              <div class="portfolio-item-inner">
+                <img
+                  src="IMG/Certificates/Cert6.jpg"
+                  alt="Sertifikat Bootcamp"
+                />
+                <div class="overlay">
+                  <h4>Cognitive Class.ai</h4>
+                  <p>Build a Chatbot to Analyze PDF Files using LLM</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item certif">
+              <div class="portfolio-item-inner">
+                <img
+                  src="IMG/Certificates/Cert7.jpg"
+                  alt="Sertifikat Bootcamp"
+                />
+                <div class="overlay">
+                  <h4>Cognitive Class.ai</h4>
+                  <p>The Art of Prompt Engineering</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item certif">
+              <div class="portfolio-item-inner">
+                <img
+                  src="IMG/Certificates/Cert8.jpg"
+                  alt="Sertifikat Bootcamp"
+                />
+                <div class="overlay">
+                  <h4>Cognitive Class.ai</h4>
+                  <p>
+                    Create a Voice Assistant with OpenAI's GPT-3 and IBM Watson
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item certif">
+              <div class="portfolio-item-inner">
+                <img
+                  src="IMG/Certificates/CGO-IBM.jpg"
+                  alt="Sertifikat Bootcamp"
+                />
+                <div class="overlay">
+                  <h4>IBM</h4>
+                  <p>Code Generation and Optimization Using IBM Granite</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item certif">
+              <div class="portfolio-item-inner">
+                <img
+                  src="IMG/Certificates/EDSP.jpg"
+                  alt="Sertifikat Bootcamp"
+                />
+                <div class="overlay">
+                  <h4>IBM</h4>
+                  <p>Enterprise Data Science in Practice</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item certif">
+              <div class="portfolio-item-inner">
+                <img src="IMG/Certificates/ESP.jpg" alt="Sertifikat Bootcamp" />
+                <div class="overlay">
+                  <h4>IBM</h4>
+                  <p>Enterprise Security in Practice</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item certif">
+              <div class="portfolio-item-inner">
+                <img
+                  src="IMG/Certificates/GSTIH.jpg"
+                  alt="Sertifikat Bootcamp"
+                />
+                <div class="overlay">
+                  <h4>IBM</h4>
+                  <p>Getting Started with Threat Intelligence and Hunting</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item certif">
+              <div class="portfolio-item-inner">
+                <img
+                  src="IMG/Certificates/CGO.jpg"
+                  alt="Sertifikat MiniBootcamp"
+                />
+                <div class="overlay">
+                  <h4>Hacktivate - Student Developer Initiative</h4>
+                  <p>Code Generations and Optimization</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item certif">
+              <div class="portfolio-item-inner">
+                <img
+                  src="IMG/Certificates/Hacktive8MSIB.jpg"
+                  alt="Sertifikat MSIB (Kampus Merdeka)"
+                />
+                <div class="overlay">
+                  <h4>Hacktivate X IBM</h4>
+                  <p>IBM SkillsBuild for AI & Cybersecurity.</p>
+                </div>
+              </div>
+            </div>
+            <!-- End of Certificates Section  -->
+
+            <div class="portfolio-item content">
+              <div class="portfolio-item-inner">
+                <a
+                  href="https://www.youtube.com/channel/UCJq9xupnbT_nI5Y9XZMyQpw"
+                  target="_blank"
+                >
+                  <img src="IMG/logoyt.jpg" alt="YouTube Channel" />
+                  <div class="overlay">
+                    <h4>YouTube Channel</h4>
+                    <p>Content Creator</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <button id="more-certs-btn" class="filter-btn hidden">
+            More Certificates
+          </button>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="skills main-container">
+          <h3 class="pre-title" data-aos="fade-up">Learning Path</h3>
+          <h1 class="section-title" data-aos="fade-up" data-aos-delay="100">
+            Skills & Education
+          </h1>
+
+          <div class="skill-grid">
+            <div class="skills-left" data-aos="fade-right">
+              <div class="education">
+                <div class="education-bullet"></div>
+                <div class="education-info">
+                  <h4 class="education-title">Indraprasta PGRI University</h4>
+                  <p>Informatics Engineering</p>
+                  <h4 class="education-years">2021 - 2025</h4>
+                </div>
+              </div>
+
+              <div class="education">
+                <div class="education-bullet"></div>
+                <div class="education-info">
+                  <h4 class="education-title">
+                    SANDIKTA Bekasi Vocational High School
+                  </h4>
+                  <p>Network Computer Engineering</p>
+                  <h4 class="education-years">2016 - 2019</h4>
+                </div>
+              </div>
+            </div>
+            <div class="skills-right" data-aos="fade-left" data-aos-delay="200">
+              <p>
+                I understand that basic concepts such as HTML structure, styling
+                with CSS, and interactivity with JavaScript can be challenging.
+                However, with practice and patience, these concepts become
+                easier to grasp. By self-learning through the web programming
+                community and from learning resources available online, I was
+                able to develop my skills and become more confident in my
+                ability to create complex and functional websites.
+              </p>
+
+              <div class="skills-list">
+                <ul>
+                  <li>Computer and Network Troubleshooting</li>
+                  <li>Copywriting</li>
+                  <li>SEO optimisation</li>
+                  <li>Adobe Premiere</li>
+                  <li>Adobe After Effect</li>
+                  <li>Adobe Photoshop</li>
+                  <li>Intermediate Microsoft Office</li>
+                </ul>
+
+                <ul>
+                  <li>Vanilla Js</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Java</li>
+                  <li>SQL</li>
+                  <li>Python</li>
+                  <li>Machine Learning</li>
+                  <li>Deep Learning</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="contact main-container">
+          <div class="contact-left" data-aos="fade-right">
+            <form
+              class="contact-form"
+              action="https://formspree.io/f/mqkvvwrl"
+              method="POST"
+            >
+              <div>
+                <input type="text" placeholder="Name" name="name" />
+              </div>
+              <div>
+                <input type="email" placeholder="Email" name="email" />
+              </div>
+              <div>
+                <textarea
+                  placeholder="Message"
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+              <div>
+                <button class="btn-submit">Send Message</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="contact-right" data-aos="fade-left" data-aos-delay="200">
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 3c2.131 0 4 1.73 4 3.702 0 2.05-1.714 4.941-4 8.561-2.286-3.62-4-6.511-4-8.561 0-1.972 1.869-3.702 4-3.702zm0-2c-3.148 0-6 2.553-6 5.702 0 3.148 2.602 6.907 6 12.298 3.398-5.391 6-9.15 6-12.298 0-3.149-2.851-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm8 6h-3.135c-.385.641-.798 1.309-1.232 2h3.131l.5 1h-4.264l-.344.544-.289.456h.558l.858 2h-7.488l.858-2h.479l-.289-.456-.343-.544h-2.042l-1.011-1h2.42c-.435-.691-.848-1.359-1.232-2h-3.135l-4 8h24l-4-8zm-12.794 6h-3.97l1.764-3.528 1.516 1.528h1.549l-.859 2zm8.808-2h3.75l1 2h-3.892l-.858-2z"
+                  />
+                </svg>
+              </div>
+              <div class="contact-item-detail">
+                <h4>Address</h4>
                 <p>
-                  The ArcTech_ID YouTube channel is all about technology and
-                  gadgets. This channel has 1,41 rb subscribers and 54 videos.
-                  You can watch videos about the newest technology, reviews of
-                  gadgets, and tutorials on software usage.
+                  Kp Rawabogo, Gang Musola Al Muhajirin, Kel Jatimekar,
+                  Jatiasih, Kota Bekasi.
                 </p>
               </div>
             </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M18.48 22.926l-1.193.658c-6.979 3.621-19.082-17.494-12.279-21.484l1.145-.637 3.714 6.467-1.139.632c-2.067 1.245 2.76 9.707 4.879 8.545l1.162-.642 3.711 6.461zm-9.808-22.926l-1.68.975 3.714 6.466 1.681-.975-3.715-6.466zm8.613 14.997l-1.68.975 3.714 6.467 1.681-.975-3.715-6.467z"
+                  />
+                </svg>
+              </div>
+              <div class="contact-item-detail">
+                <h4>Phone</h4>
+                <p>(+62) 859-6317-2852</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"
+                  />
+                </svg>
+              </div>
+              <div class="contact-item-detail">
+                <h4>Email</h4>
+                <p>Tiorangga.yudistira@gmail.com</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <div class="hr-container">
-      <hr />
+      </section>
+      <footer>
+        <p>&#169; 2025 - Made by Tio Rangga Yudhistira</p>
+      </footer>
+      <!-- ===== Modal View for Certificates ===== -->
+    </div>
+    <div id="imgModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="modalImg" />
+      <div id="caption"></div>
+      <div id="modalDesc"></div>
     </div>
 
-    <section id="portofolios">
-      <div class="portofolios main-container">
-        <h3 class="pre-title">My Works</h3>
-        <h1 class="section-title">Featured Portofolios</h1>
-
-        <div class="grid-3">
-          <!-- Portofolio 1 -->
-          <div class="portofolio">
-            <div class="portofolio-cover">
-              <img src="IMG/2.jpg" alt="Portofolio 1" />
-            </div>
-
-            <div class="portofolio-info">
-              <div class="portofolio-title">
-                <h4>Brand Mockup</h4>
-                <a href="/" class="portofolio-link">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"
-                    />
-                  </svg>
-                </a>
-              </div>
-
-              <div class="portofolio-tags">
-                <div>Design</div>
-                <div>Content</div>
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
-          <!-- Portofolio 2 -->
-          <div class="portofolio">
-            <div class="portofolio-cover">
-              <img src="IMG/1.jpg" alt="Portofolio 2" />
-            </div>
-
-            <div class="portofolio-info">
-              <div class="portofolio-title">
-                <h4>Landing Page</h4>
-                <a href="/" class="portofolio-link">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"
-                    />
-                  </svg>
-                </a>
-              </div>
-
-              <div class="portofolio-tags">
-                <div>Home</div>
-                <div>Contentful</div>
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
-          <!-- Portofolio 3 -->
-        </div>
-      </div>
-    </section>
-    <!-- End of Portofolio -->
-
-    <!-- Skill & Education -->
-    <section id="skills">
-      <div class="skills main-container">
-        <h3 class="pre-title">Learning Path</h3>
-        <h1 class="section-title">Skills & Education</h1>
-
-        <div class="skill-grid">
-          <div class="skills-left">
-            <div class="education">
-              <div class="line">
-                <div></div>
-              </div>
-              <div class="education-info">
-                <h4 class="education-title">Indraprasta PGRI University</h4>
-                <p>Informatics Engineering</p>
-                <h4 class="education-years">2021 - 2025</h4>
-              </div>
-            </div>
-
-            <div class="education">
-              <div class="line-2">
-                <div></div>
-              </div>
-              <div class="education-info">
-                <h4 class="education-title">
-                  SANDIKTA Bekasi Vocational High School
-                </h4>
-                <p>Network Computer Engineering</p>
-                <h4 class="education-years">2016 - 2019</h4>
-              </div>
-            </div>
-          </div>
-          <div class="skills-right">
-            <p>
-              I understand that basic concepts such as HTML structure, styling
-              with CSS, and interactivity with JavaScript can be challenging.
-              However, with practice and patience, these concepts become easier
-              to grasp. By self-learning through the web programming community
-              and from learning resources available online, I was able to
-              develop my skills and become more confident in my ability to
-              create complex and functional websites.
-            </p>
-
-            <div class="skills-list">
-              <ul>
-                <li>Computer and Network Troubleshooting</li>
-                <li>Copywriting</li>
-                <li>SEO optimisation</li>
-                <li>Adobe Premiere</li>
-                <li>Adobe After Effect</li>
-                <li>Adobe Photoshop</li>
-                <li>Intermediate Microsoft Office</li>
-              </ul>
-
-              <ul>
-                <li>Vanilla Js</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Java</li>
-                <li>SQL</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End of Skills & Education -->
-
-    <!-- Contact -->
-    <section id="contact">
-      <div class="contact main-container">
-        <div class="contact-left">
-          <form
-            class="contact-form"
-            action="https://formspree.io/f/mqkvvwrl"
-            method="POST"
-          >
-            <div>
-              <input type="text" placeholder="Name" name="name" />
-            </div>
-            <div>
-              <input type="email" placeholder="Email" name="email" />
-            </div>
-            <div>
-              <textarea
-                placeholder="Message"
-                name="message"
-                id="message"
-                cols="30"
-                rows="10"
-              ></textarea>
-            </div>
-            <div>
-              <button class="btn-submit">Send Message</button>
-            </div>
-          </form>
-        </div>
-
-        <div class="contact-right">
-          <!-- Contact Item 1 -->
-          <div class="contact-item">
-            <div class="contact-item-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M12 3c2.131 0 4 1.73 4 3.702 0 2.05-1.714 4.941-4 8.561-2.286-3.62-4-6.511-4-8.561 0-1.972 1.869-3.702 4-3.702zm0-2c-3.148 0-6 2.553-6 5.702 0 3.148 2.602 6.907 6 12.298 3.398-5.391 6-9.15 6-12.298 0-3.149-2.851-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm8 6h-3.135c-.385.641-.798 1.309-1.232 2h3.131l.5 1h-4.264l-.344.544-.289.456h.558l.858 2h-7.488l.858-2h.479l-.289-.456-.343-.544h-2.042l-1.011-1h2.42c-.435-.691-.848-1.359-1.232-2h-3.135l-4 8h24l-4-8zm-12.794 6h-3.97l1.764-3.528 1.516 1.528h1.549l-.859 2zm8.808-2h3.75l1 2h-3.892l-.858-2z"
-                />
-              </svg>
-            </div>
-            <div class="contact-item-detail">
-              <h4>Address</h4>
-              <p>
-                Kp Rawabogo, Gang Musola Al Muhajirin, Kel Jatimekar, Jatiasih,
-                Kota Bekasi.
-              </p>
-            </div>
-          </div>
-
-          <!-- Contact Item 2 -->
-          <div class="contact-item">
-            <div class="contact-item-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M18.48 22.926l-1.193.658c-6.979 3.621-19.082-17.494-12.279-21.484l1.145-.637 3.714 6.467-1.139.632c-2.067 1.245 2.76 9.707 4.879 8.545l1.162-.642 3.711 6.461zm-9.808-22.926l-1.68.975 3.714 6.466 1.681-.975-3.715-6.466zm8.613 14.997l-1.68.975 3.714 6.467 1.681-.975-3.715-6.467z"
-                />
-              </svg>
-            </div>
-            <div class="contact-item-detail">
-              <h4>Phone</h4>
-              <p>(+62) 859-XXXX-XXXX</p>
-            </div>
-          </div>
-
-          <!-- Contact Item 3 -->
-          <div class="contact-item">
-            <div class="contact-item-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"
-                />
-              </svg>
-            </div>
-            <div class="contact-item-detail">
-              <h4>Email</h4>
-              <p>Tiorangga.yudistira@gmail.com</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End of Contact -->
-
-    <!-- Footer -->
-    <footer>
-      <div class="footer-icons"><a href=""</div>
-      <p>&#169; 2023 - Made by Tio Rangga Yudhistira</p>
-    </footer>
-    <!-- End of Footer -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="JS/main.js"></script>
   </body>
 </html>
